@@ -852,7 +852,7 @@ function AdminDashboard({ newStudents, newStaff, onAddStudent, onAddStaff }) {
 const navByRole = {
   Student: [["grid", "Overview"], ["calendar", "My attendance"], ["book", "My courses"], ["chart", "Reports"]],
   Staff: [["grid", "Overview"], ["check", "Mark attendance"], ["calendar", "Class schedule"], ["people", "My students"], ["chart", "Reports"]],
-  Admin: [["grid", "Overview"], ["people", "Students"], ["book", "Departments"], ["chart", "Analytics"], ["settings", "Settings"]],
+  Admin: [["grid", "Overview"], ["people", "Students"], ["people", "Staff"], ["book", "Departments"], ["chart", "Analytics"], ["settings", "Settings"]],
 };
 
 function App() {
